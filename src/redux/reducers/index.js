@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import reducerSample from './reducer-sample';
+import items from './ItemReducer';
 
 const allReducers = {
-  reducerSample: reducerSample
+  items: items
 }
 
 const rootReducer = combineReducers(allReducers);
